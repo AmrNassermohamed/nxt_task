@@ -17,6 +17,7 @@ class HorizontalDottedLinePainter extends CustomPainter {
 
     while (startX < size.width) {
 
+
       canvas.drawLine(
         Offset(startX, 0),
         Offset(startX + dashWidth, 0),
