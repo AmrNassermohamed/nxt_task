@@ -2,6 +2,7 @@ class ReservationModel {
   List<Reservations>? reservations;
 
   ReservationModel({this.reservations});
+  
 
   ReservationModel.fromJson(Map<String, dynamic> json) {
     if (json['reservations'] != null) {
